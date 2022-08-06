@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLocalStorage } from './hooks/hooks';
+import { useLocalStorage } from '../hooks/hooks';
 import PropTypes from 'prop-types';
 import { AppSyles, AppTitle } from './App.styled';
 import toast, { Toaster } from 'react-hot-toast';
